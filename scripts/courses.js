@@ -81,9 +81,12 @@ const courses = [
 const allButton = document.querySelector("#all");
 const cseButton = document.querySelector("#cse");
 const wddButton = document.querySelector("#wdd");
+const courseList = document.querySelector("#courseList");
+const creditPar = document.querySelector("#credits");
 
 let shownCourses = courses;
 showCourses();
+
 allButton.addEventListener("click", () => {
     allButton.classList.add("selected");
     cseButton.classList.remove("selected");
@@ -111,8 +114,7 @@ wddButton.addEventListener("click", () => {
     showCourses();
 });
 
-const courseList = document.querySelector("#courseList");
-const creditPar = document.querySelector("#credits");
+
 function removeCourses() {
     courseList.replaceChildren();
 }
