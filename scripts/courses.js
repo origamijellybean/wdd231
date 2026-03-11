@@ -83,6 +83,7 @@ const cseButton = document.querySelector("#cse");
 const wddButton = document.querySelector("#wdd");
 
 let shownCourses = courses;
+showCourses();
 allButton.addEventListener("click", () => {
     allButton.classList.add("selected");
     cseButton.classList.remove("selected");
