@@ -120,7 +120,7 @@ function removeCourses() {
 }
 
 function showCourses() {
-    let creditTotal = 0;
+    let shownCredits = [];
     shownCourses.forEach(course => {
         const newCourse = document.createElement("li");
         newCourse.innerHTML = `${course.subject} ${course.number}${completed(course.completed)}`;
@@ -128,9 +128,9 @@ function showCourses() {
             newCourse.classList.add("completed");
         };
         courseList.appendChild(newCourse);
-        creditTotal += course.credits;
+        shownCredits.push(course.credits);
     });
-    creditPar.innerHTML = `The total credits of the courses listed above is ${creditTotal}`;
+    creditPar.innerHTML = `The total credits of the courses listed above is ${shownCredits.reduce((total, credits) => {return total += credits})}`;
 }
 
 function completed(cmplte) {
