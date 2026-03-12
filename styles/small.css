@@ -1,3 +1,10 @@
+@font-face {
+            font-family: "Quicksand";
+            /* src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+            src: url('../styles/quicksand.woff2') format('woff2');
+            font-display: swap;
+        }
+
 html, body {
     display: grid;
     min-height: 100vh;
@@ -136,8 +143,8 @@ main section p {
 
 main section img {
     display: block;
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 209px;
     margin: 15px auto;
     border: 3px inset saddlebrown;
 }
