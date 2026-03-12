@@ -104,7 +104,7 @@ h1 {
     color: black;
     border-bottom: black 3px outset;
     border-top: black 3px outset;
-    background: white;
+    /* background: white; */
     background: linear-gradient(to bottom, white, tan);
 }
 h2 {
