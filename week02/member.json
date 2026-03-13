@@ -1,0 +1,20 @@
+{
+    "family": "Hunter",
+    "move-in-date": "11-21-2021",
+    "number-of-people": 7,
+    "bishopric-visited": true,
+    "family-members": [
+        {"name": "Tyson",
+            "gender": "male",
+            "birthdate": "03-21-2001"
+        },
+        {"name": "crace",
+            "gender": "female",
+            "birthdate": "03-22-2101"
+        },
+        {"name": "Jamaes",
+            "gender": "male",
+            "birthdate": "13-21-2091"
+        }
+    ]
+}

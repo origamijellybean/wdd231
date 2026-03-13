@@ -1,0 +1,20 @@
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+main div section {
+    background: silver;
+    border: 3px gray outset;
+    width: 420px;
+    text-align: center;
+}
+
+main div section img {
+    margin: 20px;
+    border:white 2px ridge;
+    box-shadow: 10px 10px 10px 0px white;
+    box-sizing: border-box;
+}
