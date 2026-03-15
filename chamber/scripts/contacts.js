@@ -22,9 +22,10 @@ function displayData(companies) {
         image.setAttribute("loading", "lazy");
         image.setAttribute("width", "340");
         image.setAttribute("height", "340");
-        phone.innerHTML = `Phone Number: ${company.phone}`;
-        companyurl.innerHTML = `Company Website: ${company.companyurl}`;
-        member_level.innerHTMl = `Membership Level: ${company.member_level}`;
+        image.classList.add("companyImage");
+        phone.innerHTML = `<strong>Phone Number:</strong> ${company.phone}`;
+        companyurl.innerHTML = `<strong>Company Website:</strong> ${company.companyurl}`;
+        member_level.innerHTML = `<strong>Membership Level:</strong> ${company.member_level}`;
         card.appendChild(name);
         card.appendChild(phone);
         card.appendChild(companyurl);
@@ -36,4 +37,18 @@ function displayData(companies) {
 
 getData();
 
+const grid = document.querySelector("#grid");
+const list = document.querySelector("#list");
+grid.addEventListener("click", () => {
+    grid.classList.add("active");
+    list.classList.remove("active");
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+});
 
+list.addEventListener("click", () => {
+    list.classList.add("active");
+    grid.classList.remove("active");
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+});

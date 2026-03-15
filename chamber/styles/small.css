@@ -10,6 +10,10 @@ html, body {
     min-height: 100vh;
     padding: 0;
 }
+
+a, img {
+    color: black;
+}
 body {
     grid-template-rows: auto 1fr auto;
     color: white;
@@ -118,14 +122,65 @@ h2 {
     margin: 0px;
 }
 main {
-    column-gap: 10px;
+    /* column-gap: 10px;
     row-gap: 15px;
     display: grid;
-    grid-template-rows: min-content auto auto auto;
+    grid-template-rows: min-content auto auto auto; */
     padding: 10px;
     box-sizing: border-box;
     color: white;
     background: saddlebrown;
+}
+main #view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+#view p {
+    margin: 10px;
+}
+#view button {
+    margin: 10px 3px;
+}
+
+#cards.grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+#cards.grid section p:nth-child(even) {
+    background: green;
+}
+
+#cards.list {
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+#cards.list .companyImage {
+    display: none;
+}
+
+#cards.list h2 {
+    font-size: 18px;
+}
+
+#cards.list p {
+    padding: 1px 5px;
+}
+
+#cards.list section {
+    display: grid;
+}
+#cards.list section p {
+    padding: 5px;
+}
+#cards.list p:nth-child(odd) {
+    background: green;
 }
 
 main section {
@@ -133,6 +188,7 @@ main section {
     border-radius: 5px;
     background: darkgreen;
     color: white;
+    width: 100%;
 }
 
 main section p {
@@ -143,7 +199,7 @@ main section p {
 main section img {
     display: block;
     width: 200px;
-    height: 209px;
+    height: 200px;
     margin: 15px auto;
     border: 3px inset saddlebrown;
 }
