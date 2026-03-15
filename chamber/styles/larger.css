@@ -39,7 +39,7 @@
         grid-column: 1/3;
     }
     .social {
-        margin: 20px auto auto auto;
+        margin-top: 20px;
     }
     #cards.grid {
         display: grid;
@@ -50,9 +50,15 @@
 
     footer {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         justify-items: center;
+        /* display: flex; justify-content: space-between;
+        align-items: flex-start; */
         gap: 5px;
         padding: 5px;
+    }
+    #commerce-contact, #modification-details {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -1,9 +1,8 @@
-@font-face {
+/* @font-face {
             font-family: "Quicksand";
-            /* src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
             src: url('../styles/quicksand.woff2') format('woff2');
             font-display: swap;
-        }
+        } */
 
 html, body {
     display: grid;
@@ -189,6 +188,7 @@ main section {
     background: darkgreen;
     color: white;
     width: 100%;
+    min-height: 390px;
 }
 
 main section p {
@@ -219,16 +219,16 @@ button.selected {
 
 
 footer {
-    height: fit-content;
+    min-height: 220px;
     border-top: black ridge 6px;
     justify-items: start;
     background: darkgreen;
     color: white;
-    display: grid;
     box-sizing: border-box;
 }
 footer p {
     font-size: 14px;
+    min-width: 40px;
 }
 
 .social {
@@ -240,7 +240,7 @@ footer p {
 
 footer img {
     width: 50px;
-    height: auto;
+    height: 50px;
 }
 
 .commerce-contact, .modification-details {
