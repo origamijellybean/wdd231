@@ -5,7 +5,7 @@
         "addresses":"100 West Center St",
         "phone":"WConstruct",
         "companyurl":"www.westsideconstruction.com",
-        "image":"https://origamijellybean.github.io/wdd231/chamber/images/west.ico",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/west.webp",
         "member_level": 3
     },
     {
@@ -13,7 +13,7 @@
         "addresses":"100 East Center St",
         "phone":"ESRealters",
         "companyurl":"www.eastsiderealters.com",
-        "image":"https://origamijellybean.github.io/wdd231/chamber/images/east.ico",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/east.webp",
         "member_level": 3
     },
         {
@@ -37,7 +37,7 @@
         "addresses":"100 West Center St",
         "phone":"WGenealogy",
         "companyurl":"www.willardgenealogy.com",
-        "image":"https://origamijellybean.github.io/wdd231/chamber/images/family.ico",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/family.webp",
         "member_level": 3
     },
         {
@@ -45,7 +45,7 @@
         "addresses":"57 N 200 E",
         "phone":"WillardFun",
         "companyurl":"www.willardrecreation.com",
-        "image":"https://origamijellybean.github.io/wdd231/chamber/images/recreation.ico",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/recreation.webp",
         "member_level": 3
     },
         {
