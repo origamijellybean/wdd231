@@ -1,0 +1,196 @@
+@font-face {
+            font-family: "Quicksand";
+            /* src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+            src: url('../styles/quicksand.woff2') format('woff2');
+            font-display: swap;
+        }
+
+html, body {
+    display: grid;
+    min-height: 100vh;
+    padding: 0;
+}
+body {
+    grid-template-rows: auto 1fr auto;
+    color: white;
+    background: black;
+}
+
+body.hide {
+    grid-template-rows: auto auto 1fr auto;
+}
+
+#nav-bar, p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50px auto 44px;
+    align-items: end;
+    padding: 5px 0px 5px 0px;
+    border-bottom: groove 6px black;
+    background: darkgreen;
+    column-gap: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: min-content;
+}
+
+header img {
+    display: block;
+    padding: 0 0 0 10px;
+    width: 40px;
+    height: 40px;
+    /* padding-bottom: 5px; */
+}
+
+header span {
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+}
+
+.hamburger {
+    border: none;
+    background: darkgreen;
+    color: white;
+}
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+#nav-bar {
+    display: none;
+    color: black;
+}
+#nav-bar.show {
+    display: block;
+    border: ridge 6px black;
+    border-top: none;
+    background: tan;
+}
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar li {
+    min-height: 2rem;
+    align-content: center;
+}
+#nav-bar a {
+    display: block;
+    padding: .8rem 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navigation a:hover {
+    background-color: rgba(150, 111, 83, 0.451);
+}
+.navigation li.current {
+    background-color: rgb(211, 168, 113);
+}
+
+h1 {
+    padding: .8em 10px;
+    margin-top: 0;
+    color: black;
+    border-bottom: black 3px outset;
+    border-top: black 3px outset;
+    /* background: white; */
+    background: linear-gradient(to bottom, white, tan);
+}
+h2 {
+    text-align: center;
+    background: #d2b48c;
+    border-bottom: 2px ridge black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: black;
+    padding: 5px;
+    margin: 0px;
+}
+main {
+    column-gap: 10px;
+    row-gap: 15px;
+    display: grid;
+    grid-template-rows: min-content auto auto auto;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background: saddlebrown;
+}
+
+main section {
+    border: black 2px solid;
+    border-radius: 5px;
+    background: darkgreen;
+    color: white;
+}
+
+main section p {
+    margin: 0px;
+    padding: 10px;
+}
+
+main section img {
+    display: block;
+    width: 200px;
+    height: 209px;
+    margin: 15px auto;
+    border: 3px inset saddlebrown;
+}
+main section button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border-radius: 8px;
+}
+
+button.selected {
+    background: saddlebrown;
+    color: white;
+}
+
+
+footer {
+    height: fit-content;
+    border-top: black ridge 6px;
+    justify-items: start;
+    background: darkgreen;
+    color: white;
+    display: grid;
+    box-sizing: border-box;
+}
+footer p {
+    font-size: 14px;
+}
+
+.social {
+    background: white;
+    border: inset 3px black;
+    margin: auto;
+    padding: 2px;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+}
+
+.commerce-contact, .modification-details {
+    padding: 20px;
+}
+
+.commerce-contact #commerce {
+    font-weight: bold;
+}
