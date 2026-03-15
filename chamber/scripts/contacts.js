@@ -9,12 +9,13 @@ async function getData() {
 }
 
 function displayData(companies) {
-    prophets.forEach((company) => {
+    companies.forEach((company) => {
         const card = document.createElement("section");
         const name = document.createElement("h2");
         const image = document.createElement("img");
         const phone = document.createElement("p");
         const companyurl = document.createElement("p");
+        const member_level = document.createElement("p");
         name.innerHTML = `${company.name}`;
         portrait.setAttribute("src", company.image);
         portrait.setAttribute("alt", `Image for ${company.name}.`);
@@ -23,9 +24,11 @@ function displayData(companies) {
         portrait.setAttribute("height", "340");
         phone.innerHTML = `Phone Number: ${company.phone}`;
         companyurl.innerHTML = `Company Website: ${company.companyurl}`;
+        memberlevel.innerHTMl = `Membership Level: ${company.member_level}`;
         card.appendChild(name);
         card.appendChild(phone);
-        card.appendChild(image);
+        card.appendChild(companyurl);
+        card.appendChild(member_level);
         card.appendChild(image);
         cards.appendChild(card);
     });

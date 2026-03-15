@@ -4,57 +4,57 @@
         "name":"Westside Construction",
         "addresses":"100 West Center St",
         "phone":"WConstruct",
-        "url":"www.westsideconstruction.com",
+        "companyurl":"www.westsideconstruction.com",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/west.ico",
-        "member-level": 3
+        "member_level": 3
     },
     {
         "name":"Eastside Realters",
         "addresses":"100 East Center St",
         "phone":"ESRealters",
-        "url":"www.eastsiderealters.com",
+        "companyurl":"www.eastsiderealters.com",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/east.ico",
-        "member-level": 3
+        "member_level": 3
     },
         {
         "name":"Willard Sewing Club",
         "addresses":"100 West Center St",
         "phone":"WilSewClub",
-        "url":"www.willardsewingclub.org",
+        "companyurl":"www.willardsewingclub.org",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/sewing.webp",
-        "member-level": 2
+        "member_level": 2
     },
         {
         "name":"Origami in Willard",
         "addresses":"100 West Center St",
         "phone":"WilOrigami",
-        "url":"www.willardorigami.org",
+        "companyurl":"www.willardorigami.org",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/metal-origami-crane.webp",
-        "member-level": 2
+        "member_level": 2
     },
         {
         "name":"Genealogy of Willard",
         "addresses":"100 West Center St",
         "phone":"WGenealogy",
-        "url":"www.willardgenealogy.com",
+        "companyurl":"www.willardgenealogy.com",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/family.ico",
-        "member-level": 3
+        "member_level": 3
     },
         {
         "name":"Recreation Subdivision",
         "addresses":"57 N 200 E",
         "phone":"WillardFun",
-        "url":"www.willardrecreation.com",
+        "companyurl":"www.willardrecreation.com",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/recreation.ico",
-        "member-level": 3
+        "member_level": 3
     },
         {
         "name":"The Willardite Book Club",
         "addresses": "100 West Center St",
         "phone":"WilBukClub",
-        "url":"www.willardbookclub.org",
+        "companyurl":"www.willardbookclub.org",
         "image":"https://origamijellybean.github.io/wdd231/chamber/images/tessellation1-origami.webp",
-        "member-level": 1
+        "member_level": 1
     }
 ]
 }
