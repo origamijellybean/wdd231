@@ -1,0 +1,28 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+main {
+    text-align: center;
+    background: lightblue;
+    border: black ridge 3px;
+}
+
+#current-temp {
+    background: white;
+    padding: 5px;
+    border: inset gray 1px;
+}
+
+figure img {
+    background: gray;
+    margin: 10px;
+    border: blue outset 3px;
+    border-radius: 10px;
+}
+figure figcaption {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
