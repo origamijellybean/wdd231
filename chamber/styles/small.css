@@ -146,42 +146,47 @@ main #view p {
 }
 
 
-#cards.grid {
+.cards.grid {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 20px;
     justify-items: center;
 }
-#cards.grid section p:nth-child(even) {
+.cards.grid section p:nth-child(even) {
     background: green;
 }
+.cards.grid section {
+    min-height: 390px;
+}
 
-#cards.list {
+.cards.list {
     grid-template-columns: 1fr;
     display: grid;
     gap: 10px;
     padding: 10px;
+    
 }
-#cards.list .companyImage {
+.cards.list .companyImage {
     display: none;
 }
 
-#cards.list h2 {
+.cards.list h2 {
     font-size: 18px;
 }
 
-#cards.list p {
+.cards.list p {
     padding: 1px 5px;
 }
 
-#cards.list section {
+.cards.list section {
     display: grid;
+    min-height: 115px;
 }
-#cards.list section p {
+.cards.list section p {
     padding: 5px;
 }
-#cards.list p:nth-child(odd) {
+.cards.list p:nth-child(odd) {
     background: green;
 }
 
@@ -191,7 +196,6 @@ main section {
     background: darkgreen;
     color: white;
     width: 100%;
-    min-height: 390px;
 }
 
 main section p {

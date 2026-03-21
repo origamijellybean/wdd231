@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willard Chamber Directory</title>
     <link rel="icon" href="images/favicon.ico">
-    <meta name="description" content="A list of contacts relevant to the Willard Chamber of Commerce.">
+    <meta name="description" content="A home page to introduce people to the Willard Chamber of Commerce.">
     <meta name="author" content="Tyson Hunter">
     
-    <meta property="og:title" content="Willard Chamber Directory">
-    <meta property="og:description" content="A list of contacts relevant to the Willard Chamber of Commerce.">
+    <meta property="og:title" content="Willard Chamber of Commerce">
+    <meta property="og:description" content="A home page to introduce people to the Willard Chamber of Commerce.">
     <meta property="og:image" content="https://origamijellybean.github.io/wdd231/chamber/images/willard-mountains.webp">
-    <meta property="og:url" content="https://origamijellybean.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://origamijellybean.github.io/wdd231/chamber/index.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/contacts.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,20 +29,49 @@
     </header>
     <nav id="nav-bar" class="navigation" aria-label="navigation bar">
         <ul>
-            <li><a href="./index">Home</a></li>
+            <li class="current"><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
-            <li class="current"><a href="#">Directory</a></li>
+            <li><a href="./directory.html">Directory</a></li>
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Directory</h1>
-        <div id="view">
-            <p>View:</p>
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
-        <div class="cards grid"></div>
+        <h1>Home</h1>
+        <!-- Hero with call to action-->
+        <section class="hero">
+            <fig>
+                <h2>Willard</h2>
+                <img>
+                <figcaption><a>Join us for our newsletter, special events, and more!</a></figcaption>
+            </fig>
+        </section>
+        <!-- current events -->
+        <section>
+            <h2>Current Events</h2>
+            <section>
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </section>
+        <!-- weather -->
+        <section>
+            <h2>Weather</h2>
+        </section>
+        <!-- spotlights -->
+        <section>
+            <h2>Company Spotlights</h2>
+            <section></section>
+            <section></section>
+            <section></section>
+        </section>
+        <div class="grid"></div>
     </main>
     <footer>
         <div class="commerce-contact">
