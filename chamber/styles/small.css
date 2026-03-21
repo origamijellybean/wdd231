@@ -218,6 +218,49 @@ main section button {
     background: white;
     border-radius: 8px;
 }
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+}
+.hero h2 {
+    position: absolute;
+    z-index: 5;
+    /* background: linear-gradient(to top, white, darkgreen); */
+    background: transparent;
+    border-radius: 0;
+    border: outset 2px white;
+    font-size: 28px;
+    top: 5%;
+    left: 50%;
+    translate: -50%;
+}
+
+.hero figcaption {
+    position: absolute;
+    z-index: 5;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+}
+.hero a {
+    display: block;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    background: darkgreen;
+    border: outset 3px saddlebrown;
+}
+.hero a:hover {
+    background: green;
+    border-color: tan;
+}
 
 button.selected {
     background: saddlebrown;

@@ -38,6 +38,11 @@
     main section#courses {
         grid-column: 1/3;
     }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
     .social {
         margin-top: 20px;
     }
