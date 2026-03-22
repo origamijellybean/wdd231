@@ -24,7 +24,8 @@
         text-align: center;
         /* grid-template-columns: repeat(3, 1fr); */
     }
-    main {
+    main#directory {
+        display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: min-content min-content min-content;
     }

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -35,7 +36,7 @@
             <li><a href="./join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="home">
         <h1>Home</h1>
         <!-- Hero with call to action-->
         <section class="hero">
@@ -46,26 +47,60 @@
             </fig>
         </section>
         <!-- current events -->
-        <section>
+        <section id="events">
             <h2>Current Events</h2>
             <section>
+                <h3>Origami Club</h3>
+                <fig>
+                    <h4></h4>
+                    <img>
+                    <figcaption></figcaption>
+                </fig>
             </section>
             <section>
-
+                <h3>Sewing Club</h3>
+                <fig>
+                    <h4></h4>
+                    <img>
+                    <figcaption></figcaption>
+                </fig>
             </section>
             <section>
-
+                <h3>Book Club</h3>
+                <fig>
+                    <h4></h4>
+                    <img>
+                    <figcaption></figcaption>
+                </fig>
             </section>
             <section>
-
+                <h3>Job Fare</h3>
+                <fig>
+                    <h4></h4>
+                    <img>
+                    <figcaption></figcaption>
+                </fig>
+            </section>
+            <section>
+                <h3>New Subdivision</h3>
+                <fig>
+                    <h4></h4>
+                    <img>
+                    <figcaption></figcaption>
+                </fig>
             </section>
         </section>
         <!-- weather -->
-        <section>
+        <section id="weather">
             <h2>Weather</h2>
+            <p>Temperature: <strong><span id="current-temp"></span></strong></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="weather-description"></figcaption>
+            </figure>
         </section>
         <!-- spotlights -->
-        <section>
+        <section id="spotlights">
             <h2>Company Spotlights</h2>
             <section></section>
             <section></section>

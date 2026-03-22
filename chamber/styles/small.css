@@ -131,6 +131,18 @@ main {
     color: white;
     background: saddlebrown;
 }
+
+main#home {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+main#home > * {
+    box-sizing: border-box;
+    grid-column: 1/-1;
+}
+
+
 main #view {
     display: flex;
     align-items: center;
@@ -218,6 +230,12 @@ main section button {
     background: white;
     border-radius: 8px;
 }
+
+main > section > * {
+    box-sizing: border-box;
+}
+
+
 .hero {
     position: relative;
 }
@@ -253,7 +271,7 @@ main section button {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     text-decoration: none;
-    padding: 5px;
+    padding: 8px;
     background: darkgreen;
     border: outset 3px saddlebrown;
 }
@@ -261,12 +279,24 @@ main section button {
     background: green;
     border-color: tan;
 }
+#weather {
+    background: slategray;
+    text-align: center;
+}
+#weather {
+    font-family: "Quicksand";
+}
+#weather-icon {
+    background: darkblue;
+    border-color: lightskyblue;
+    border-style: ridge;
+}
+
 
 button.selected {
     background: saddlebrown;
     color: white;
 }
-
 
 footer {
     min-height: 220px;
