@@ -277,7 +277,7 @@ main > section > * {
 }
 
 #weather {
-    background: slategray;
+    background: #4a5568;
     text-align: center;
 }
 #weather-icon {
