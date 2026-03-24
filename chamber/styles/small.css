@@ -101,7 +101,8 @@ h1 {
     margin-top: 0;
     border-bottom: black 3px outset;
     border-top: black 3px outset;
-    background: linear-gradient(to bottom, white, tan);
+    /* background: linear-gradient(to bottom, white, tan); */
+    background: tan;
 }
 h2 {
     text-align: center;
