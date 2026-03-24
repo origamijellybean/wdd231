@@ -1,21 +1,21 @@
-/* @font-face {
-            font-family: "Quicksand";
-            src: url('../styles/quicksand.woff2') format('woff2');
-            font-display: swap;
-        } */
-
 html, body {
     display: grid;
     min-height: 100vh;
     padding: 0;
 }
+body, .hamburger, main, main section, .hero figcaption, .hero a, button.selected footer {
+    color: white;
+}
 
-a, img {
+a, img, #nav-bar, #nav-bar a, h1, h2, main section button {
     color: black;
+}
+
+header, .hamburger, main section, .hero a, footer {
+    background: darkgreen;
 }
 body {
     grid-template-rows: auto 1fr auto;
-    color: white;
     background: black;
 }
 
@@ -23,7 +23,7 @@ body.hide {
     grid-template-rows: auto auto 1fr auto;
 }
 
-#nav-bar, p {
+#nav-bar, p, .hero a, #weather {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
 }
@@ -33,9 +33,8 @@ header {
     display: grid;
     grid-template-columns: 50px auto 44px;
     align-items: end;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px;
     border-bottom: groove 6px black;
-    background: darkgreen;
     column-gap: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: min-content;
@@ -46,7 +45,6 @@ header img {
     padding: 0 0 0 10px;
     width: 40px;
     height: 40px;
-    /* padding-bottom: 5px; */
 }
 
 header span {
@@ -56,8 +54,6 @@ header span {
 
 .hamburger {
     border: none;
-    background: darkgreen;
-    color: white;
 }
 .hamburger::before {
     content: "\2630";
@@ -71,7 +67,6 @@ header span {
 
 #nav-bar {
     display: none;
-    color: black;
 }
 #nav-bar.show {
     display: block;
@@ -92,7 +87,6 @@ header span {
     display: block;
     padding: .8rem 10px;
     text-decoration: none;
-    color: black;
     font-weight: bold;
 }
 .navigation a:hover {
@@ -105,10 +99,8 @@ header span {
 h1 {
     padding: .8em 10px;
     margin-top: 0;
-    color: black;
     border-bottom: black 3px outset;
     border-top: black 3px outset;
-    /* background: white; */
     background: linear-gradient(to bottom, white, tan);
 }
 h2 {
@@ -117,18 +109,13 @@ h2 {
     border-bottom: 2px ridge black;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    color: black;
     padding: 5px;
     margin: 0px;
 }
+
 main {
-    /* column-gap: 10px;
-    row-gap: 15px;
-    display: grid;
-    grid-template-rows: min-content auto auto auto; */
     padding: 10px;
     box-sizing: border-box;
-    color: white;
     background: saddlebrown;
 }
 
@@ -144,6 +131,7 @@ main#home > * {
 
 
 main #view {
+    grid-column: 1/-1;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -205,9 +193,6 @@ main #view p {
 main section {
     border: black 2px solid;
     border-radius: 5px;
-    background: darkgreen;
-    color: white;
-    width: 100%;
 }
 
 main section p {
@@ -226,13 +211,16 @@ main section button {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: black;
     background: white;
     border-radius: 8px;
 }
 
 main > section > * {
     box-sizing: border-box;
+}
+
+#home h3 {
+    text-align: center;
 }
 
 
@@ -263,28 +251,34 @@ main > section > * {
     z-index: 5;
     bottom: 5%;
     left: 5%;
-    color: white;
 }
 .hero a {
     display: block;
-    color: white;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
     text-decoration: none;
     padding: 8px;
-    background: darkgreen;
     border: outset 3px saddlebrown;
 }
 .hero a:hover {
     background: green;
     border-color: tan;
 }
+
+#events {
+    background: black;
+    /* border: none; */
+}
+.content {
+    display: grid;
+    margin: 5px;
+    gap: 5px;
+}
+#spotlight section ul li {
+    padding: 8px;
+}
+
 #weather {
     background: slategray;
     text-align: center;
-}
-#weather {
-    font-family: "Quicksand";
 }
 #weather-icon {
     background: darkblue;
@@ -292,18 +286,23 @@ main > section > * {
     border-style: ridge;
 }
 
+#spotlights {
+    background: transparent;
+}
+#spotlight {
+    display: grid;
+    margin: 15px;
+    gap: 5px;
+}
 
 button.selected {
     background: saddlebrown;
-    color: white;
 }
 
 footer {
     min-height: 220px;
     border-top: black ridge 6px;
     justify-items: start;
-    background: darkgreen;
-    color: white;
     box-sizing: border-box;
 }
 footer p {
