@@ -82,7 +82,7 @@ const allButton = document.querySelector("#all");
 const cseButton = document.querySelector("#cse");
 const wddButton = document.querySelector("#wdd");
 const courseList = document.querySelector("#courseList");
-const creditPar = document.querySelector("#credits");
+const creditPar = document.querySelector("#total-credits");
 
 let shownCourses = courses;
 showCourses();
@@ -127,6 +127,9 @@ function showCourses() {
         if (course.completed) {
             newCourse.classList.add("completed");
         };
+        newCourse.addEventListener('click', () => {
+            showCourse(course);
+        })
         courseList.appendChild(newCourse);
         shownCredits.push(course.credits);
     });
@@ -138,4 +141,23 @@ function completed(cmplte) {
         return " &#10003";
     else
         return "";
+}
+
+const dialog = document.querySelector("#course-details");
+
+function showCourse(selectedCourse) {
+    dialog.innerHTML = '';
+    dialog.innerHTML = `
+    <h2>${selectedCourse.subject} ${selectedCourse.number}<button id="closeDialog">X</button></h2>
+    <h3>${selectedCourse.title}</h3>
+    <p><strong>Credits</strong>: ${selectedCourse.credits}</p>
+    <p><strong>Certificate</strong>: ${selectedCourse.certificate}</p>
+    <p><strong>Description</strong>: ${selectedCourse.description}</p>
+    <p><strong>Technologies</strong>: ${selectedCourse.technology.join(', ')}</p>
+  `;
+    dialog.showModal();
+    const closeDialog = document.querySelector("#closeDialog");
+    closeDialog.addEventListener("click", () => {
+    dialog.close();
+});
 }
