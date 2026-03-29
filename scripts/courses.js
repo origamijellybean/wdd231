@@ -158,6 +158,6 @@ function showCourse(selectedCourse) {
     dialog.showModal();
     const closeDialog = document.querySelector("#closeDialog");
     closeDialog.addEventListener("click", () => {
-    dialog.close();
-});
+        dialog.close();
+    });
 }
