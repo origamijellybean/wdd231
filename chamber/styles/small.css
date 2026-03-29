@@ -27,7 +27,7 @@ body.hide {
     grid-template-rows: auto auto 1fr auto;
 }
 
-#nav-bar, p, .hero a, #weather {
+#nav-bar, p, .hero a, #weather, main#join form fieldset label {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
 }
@@ -134,6 +134,54 @@ main#home > * {
     grid-column: 1/-1;
 }
 
+main#join form {
+    border: 3px darkgreen outset;
+    display: grid;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 8px;
+    box-shadow: 0 0 5px 2px black;
+}
+main#join form fieldset {
+    border-radius: 5px;
+    border: black 2px outset;
+    box-shadow: 0 0 5px 2px black;
+    display: grid;
+}
+main#join form fieldset label {
+    padding: 5px;
+}
+main#join fieldset :where(input, textarea, select) {
+    width: 100%;
+}
+main#join fieldset select {
+    text-align: center;
+}
+
+#textarea p {
+    grid-column: 1/-1;
+    margin: 0;
+}
+
+main#join form h2 {
+    border-radius: 0;
+}
+
+#membership-levels {
+    background: saddlebrown;
+    border: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+.membership-levels {
+    box-shadow: 0 0 5px 2px black;
+    min-height: 175px;
+}
+.membership-levels button {
+    text-align: center;
+}
 
 main #view {
     grid-column: 1/-1;
