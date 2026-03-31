@@ -1,0 +1,64 @@
+{
+    "companies": [
+    {
+        "name":"Westside Construction",
+        "addresses":"100 West Center St",
+        "phone":"WConstruct",
+        "companyurl":"www.westsideconstruction.com",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/west.webp",
+        "member_level": 3,
+        "meeting": "Available for private contracting or through Eastside Realters",
+        "current": "project: 4th peak subdivision"
+    },
+    {
+        "name":"Eastside Realters",
+        "addresses":"100 East Center St",
+        "phone":"ESRealters",
+        "companyurl":"www.eastsiderealters.com",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/east.webp",
+        "member_level": 3,
+        "meeting": "Tours available upon request for $50",
+        "current": "offer: 1% off homes $1,000,000 or more"
+    },
+        {
+        "name":"Genealogy of Willard",
+        "addresses":"100 West Center St",
+        "phone":"WGenealogy",
+        "companyurl":"www.willardgenealogy.com",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/family.webp",
+        "member_level": 3,
+        "meeting": "Quarterly meetings at city hall",
+        "current": "focus: DNA research"
+    },
+        {
+        "name":"Recreation Subdivision",
+        "addresses":"57 N 200 E",
+        "phone":"WillardFun",
+        "companyurl":"www.willardrecreation.com",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/recreation.webp",
+        "member_level": 3,
+        "meeting": "Parks open dawn to dusk",
+        "current": "league: Softball Monday nights at 5pm"
+    },
+        {
+        "name":"Willard Sewing Club",
+        "addresses":"100 West Center St",
+        "phone":"WilSewClub",
+        "companyurl":"www.willardsewingclub.org",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/sewing.webp",
+        "member_level": 2,
+        "meeting": "Every other Saturday",
+        "current": "project: Cross-stitching carpet"
+    },
+        {
+        "name":"Origami in Willard",
+        "addresses":"100 West Center St",
+        "phone":"WilOrigami",
+        "companyurl":"www.willardorigami.org",
+        "image":"https://origamijellybean.github.io/wdd231/chamber/images/metal-origami-crane.webp",
+        "member_level": 2,
+        "meeting": "Third Thursday of every month",
+        "current": "focus: Modular Origami"
+    }
+]
+}
