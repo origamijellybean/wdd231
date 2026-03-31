@@ -1,8 +1,8 @@
-const url = "https://origamijellybean.github.io/wdd231/chamber/data/spotlights.json";
+const Companiesurl = "https://origamijellybean.github.io/wdd231/chamber/data/spotlights.json";
 
 const spotlightSection = document.querySelector('#spotlight');
 async function getData() {
-    const response = await fetch(url);
+    const response = await fetch(Companiesurl);
     const data = await response.json();
     spotlightList = generateSpotlights(data.companies);
     displayData(spotlightList);
