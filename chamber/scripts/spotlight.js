@@ -29,11 +29,11 @@ function displayData(spotlights) {
 }
 
 function generateSpotlights(companyList) {
-    //keeps list of 3 companies
-    while (companyList.length > 3) {
-        companyList.splice(Math.floor(Math.random() * companyList.length), 1);
+    let spotlightCompanies = companyList;
+    while (spotlightCompanies.length > 3) {
+        spotlightCompanies.splice(Math.floor(Math.random() * spotlightCompanies.length), 1);
     }
-    return companyList;
+    return spotlightCompanies;
 }
 
 function calculateMembership(membership) {
