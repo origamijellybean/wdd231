@@ -383,6 +383,8 @@ main #view p {
 }
 .cards.grid section {
     min-height: 390px;
+    max-width: 400px;
+    width: 100%;
 }
 
 .cards.list {

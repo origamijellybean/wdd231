@@ -57,12 +57,13 @@
     .social {
         margin-top: 20px;
     }
-    #cards.grid {
+    .cards.grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
         gap: 20px;
         justify-items: center;
     }
+    
     .content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
