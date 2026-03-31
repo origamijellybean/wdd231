@@ -1,36 +1,53 @@
 const url = "https://origamijellybean.github.io/wdd231/chamber/data/spotlights.json";
 
-const spotlight = document.querySelector('#spotlight');
+const spotlightSection = document.querySelector('#spotlight');
 async function getData() {
     const response = await fetch(url);
     const data = await response.json();
-    // generateSpotlights(spotlight);
-    displayData(data.companies);
+    spotlightList = generateSpotlights(data.companies);
+    displayData(spotlightList);
 }
 
-function displayData(companies) {
+function displayData(spotlights) {
     let spotlighthtml = "";
-    companies.forEach(company => {
+    spotlights.forEach(spotlight => {
         spotlighthtml +=
                 `<section>
-                    <h3>${company.name}</h3>
+                    <h3>${spotlight.name}: ${calculateMembership(spotlight.member_level)} membership</h3>
                     <aside>
-                        <img src="${company.image}" alt="${company.name} logo" loading="lazy" width="200" height="200" class="companyImage">
+                        <img src="${spotlight.image}" alt="${spotlight.name} logo" loading="lazy" width="200" height="200" class="companyImage">
                     </aside>
                     <ul>
-                        <li>${company.meeting}</li>
-                        <li>Current ${company.current}</li>
-                        <li>Call or text at ${company.phone} or visit ${company.companyurl} for details</li>
+                        <li>${spotlight.meeting}</li>
+                        <li>Current ${spotlight.current}</li>
+                        <li>Call or text at ${spotlight.phone} or visit ${spotlight.companyurl} for details</li>
                     </ul>
                 </section>`;
     });
 
-    spotlight.innerHTML = spotlighthtml;
+    spotlightSection.innerHTML = spotlighthtml;
 }
 
-// function generateSpotlights(spotlight) {
-//     //keep list of 3 companies
-// }
+function generateSpotlights(companyList) {
+    //keeps list of 3 companies
+    while (companyList.length > 3) {
+        companyList.splice(Math.floor(Math.random() * companyList.length), 1);
+    }
+    return companyList;
+}
 
-
+function calculateMembership(membership) {
+    switch (membership) {
+        case 3:
+            return "Gold";
+        case 2:
+            return "Silver";
+        case 1:
+            return "Bronze";
+        case 0:
+            return "Non-Profit";
+        default:
+            return "None";
+    }
+}
 getData();
