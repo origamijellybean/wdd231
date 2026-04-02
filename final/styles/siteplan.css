@@ -1,0 +1,55 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+header,
+footer {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    border-bottom: black 4px outset;
+}
+
+footer {
+    border-top: black 4px outset;
+}
+
+.social {
+    background: white;
+    width: min-content;
+    display: flex;
+    justify-self: center;
+    color: black;
+}
+
+main {
+    background: skyblue;
+    margin: 0;
+    display: grid;
+}
+
+section {
+    border: black 4px outset;
+    margin: 20px;
+    background: white;
+    color: black;
+}
+
+section p {
+    padding-left: 10px;
+}
+
+section h2 {
+    background: saddlebrown;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
