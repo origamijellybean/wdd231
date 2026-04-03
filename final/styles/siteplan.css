@@ -16,8 +16,17 @@ footer {
 
 header {
     border-bottom: black 4px outset;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
 }
-
+h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+strong {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
 footer {
     border-top: black 4px outset;
 }
@@ -45,6 +54,7 @@ section {
 
 section p {
     padding-left: 10px;
+    
 }
 
 section h2 {
@@ -52,4 +62,13 @@ section h2 {
     color: white;
     padding: 10px;
     margin: 0px;
+}
+
+#wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#wireframe h2 {
+    grid-column: 1/-1;
 }
