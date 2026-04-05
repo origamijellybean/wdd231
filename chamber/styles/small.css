@@ -441,6 +441,25 @@ main#discover #welcome {
     border: 2px solid black;
     font-size: 1.25rem;
     background: darkgreen;
+    animation: welcome 3s ease-in-out;
+}
+@keyframes welcome {
+    0% {
+
+        transform: translateX(-75%);
+    }
+    25% {
+        transform: translateX(75%);
+    }
+    50% {
+        transform: translateX(-30%)
+    }
+    75% {
+        transform: translatex(30%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 main#discover section {
     display: grid;
@@ -460,9 +479,11 @@ main#discover section img {
 }
 main#discover section p.placeDescription {
     grid-area: description;
+    text-align: center;
 }
 main#discover section p.placeAddress {
     grid-area: address;
+    text-align: center;
 }
 
 
