@@ -435,8 +435,12 @@ main section img {
     border: 3px inset saddlebrown;
 }
 
-main#discover section img {
-    width: 300px;
+main#discover #welcome {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 1.25rem;
+    background: darkgreen;
 }
 main#discover section {
     display: grid;
@@ -445,18 +449,20 @@ main#discover section {
     "image"
     "description"
     "address";
+    margin: 10px;
 }
 main#discover section h2 {
-    grid-area: "name";
+    grid-area: name;
 }
 main#discover section img {
-    grid-area: "image";
+    grid-area: image;
+    width: 300px;
 }
-main#discover section p#placeDescription {
-    grid-area: "description";
+main#discover section p.placeDescription {
+    grid-area: description;
 }
-main#discover section p#placeAddress {
-    grid-area: "address";
+main#discover section p.placeAddress {
+    grid-area: address;
 }
 
 
