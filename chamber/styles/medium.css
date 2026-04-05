@@ -47,21 +47,23 @@
     main section#courses {
         grid-column: 1/3;
     }
+
     main#discover section {
-    display: grid;
-    grid-template-areas:
-    "image name"
-    "image description"
-    "image address";
-    grid-template-columns: min-content 1fr;
+        display: grid;
+        grid-template-areas:
+        "image name"
+        "image description"
+        "image address";
+        grid-template-columns: min-content 1fr;
+        margin: 20px 10px;
     }
     main#discover section img {
         margin: 10px;
         align-self: center;
     }
     main#discover section img:hover {
-        filter: saturate(250%);
-        transform: scale(.9) rotate(-1deg);
+        filter: saturate(200%);
+        transform: scale(.9);
     }
 
     main#discover section h2 {
