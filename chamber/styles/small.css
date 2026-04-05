@@ -434,6 +434,32 @@ main section img {
     margin: 15px auto;
     border: 3px inset saddlebrown;
 }
+
+main#discover section img {
+    width: 300px;
+}
+main#discover section {
+    display: grid;
+    grid-template-areas:
+    "name"
+    "image"
+    "description"
+    "address";
+}
+main#discover section h2 {
+    grid-area: "name";
+}
+main#discover section img {
+    grid-area: "image";
+}
+main#discover section p#placeDescription {
+    grid-area: "description";
+}
+main#discover section p#placeAddress {
+    grid-area: "address";
+}
+
+
 main section button {
     padding: 10px;
     font-size: 20px;

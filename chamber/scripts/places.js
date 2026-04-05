@@ -16,7 +16,9 @@ function displayPlaces() {
         photo.setAttribute("width", "300");
         photo.setAttribute("height", "200");
         address.innerHTML = `Address: ${place.address}`;
+        address.setAttribute("class", "placeAddress");
         description.innerHTML = `Description: ${place.description}`;
+        description.setAttribute("class", "placeDescription");
         card.appendChild(name);
         card.appendChild(photo);
         card.appendChild(address);

@@ -6,12 +6,6 @@ export const places = [
             "description": "Willard Bay, a fresh-water subportion of the Great Salt Lake, is a camping, fishing, and boating park. Day or seasons passes required."
         },
         {
-            "name": "Willard Canyon",
-            "address": "Haul Rd & E 300 N, Willard, UT 84340",
-            "image": "./images/willard-canyon.webp",
-            "description": "This canyon is a beautiful hike with a small area for camping and waterfalls, used for over 100 years."
-        },
-        {
             "name": "Maddox",
             "address": "1900 S Hwy 89, Perry, UT 84302",
             "image": "./images/maddox-chewandchat.webp",
@@ -34,6 +28,12 @@ export const places = [
             "address": "135 N 100 E, Willard, UT 84340",
             "image": "./images/dyke.webp",
             "description": "A retention basin for creek overflow that has also been turned into a park with trails, playground, and bowery!"
+        },
+        {
+            "name": "Willard Canyon",
+            "address": "Haul Rd & E 300 N, Willard, UT 84340",
+            "image": "./images/willard-canyon.webp",
+            "description": "This canyon is a beautiful hike with a small area for camping and waterfalls, used for over 100 years."
         },
         {
             "name": "Fruit Stands",
