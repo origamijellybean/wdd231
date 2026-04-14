@@ -4,8 +4,6 @@
         width: 100%;
         max-width: 1250px;
         margin: 0 auto;
-        border-left: solid 1px black;
-        border-right: solid 1px black;
     }
     
 
@@ -24,16 +22,45 @@
         padding-left: 0;
         text-align: center;
     }
-
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
     main h1 {
         grid-column: 1/-1;
     }
     main section {
-        max-width: 600px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 600px;
         box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main section img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+    }
+    section#trails {
+        justify-self: start;
+    }
+    section a:hover {
+        animation: button 1s forwards;
+    }
+    @keyframes button {
+        0% {
+            box-shadow: none;
+        }
+        100% {
+            box-shadow: 5px 5px 5px goldenrod;
+        }
+    }
+    section#events {
+        justify-self: center;
+    }
+    section#join {
+        justify-self: end;
     }
 
 }
