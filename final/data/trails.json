@@ -1,0 +1,342 @@
+{
+  "_source": "https://web.bikemap.net/?center=-112.02734%2C41.41666&zoom=10.87&distance=0%2C80.4672",
+  "_generated": "2026-04-14",
+  "routes": [
+    {
+      "name": "S 2000 W, Willard to W 1150 S, Brigham City",
+      "distance_mi": 12.6,
+      "elevation_up_ft": 390,
+      "elevation_down_ft": 337,
+      "location": "South Willard, Utah, United States",
+      "link": "https://www.bikemap.net/r/17806700"
+    },
+    {
+      "name": "W 2400 N, Farr West to N 2650 W, Farr West",
+      "distance_mi": 39,
+      "elevation_up_ft": 463,
+      "elevation_down_ft": 461,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17806152"
+    },
+    {
+      "name": "W 2400 N, Farr West to Weber River Parkway Parson Section, South Weber",
+      "distance_mi": 16.3,
+      "elevation_up_ft": 354,
+      "elevation_down_ft": 183,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17528131"
+    },
+    {
+      "name": "N 2700 W, Farr West to W 2400 N, Farr West",
+      "distance_mi": 15.1,
+      "elevation_up_ft": 114,
+      "elevation_down_ft": 122,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17504630"
+    },
+    {
+      "name": "Bamberger",
+      "distance_mi": 4.2,
+      "elevation_up_ft": 120,
+      "elevation_down_ft": 128,
+      "location": "Willard, Utah, United States",
+      "link": "https://www.bikemap.net/r/16942933"
+    },
+    {
+      "name": "Fruit-way's Backyard (200 W Willard and 1200 W Perry)",
+      "distance_mi": 13.2,
+      "elevation_up_ft": 289,
+      "elevation_down_ft": 289,
+      "location": "Willard, Utah, United States",
+      "link": "https://www.bikemap.net/r/16942817"
+    },
+    {
+      "name": "Route in Ogden",
+      "distance_mi": 10.7,
+      "elevation_up_ft": 383,
+      "elevation_down_ft": 504,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/16932590"
+    },
+    {
+      "name": "Route in Ogden",
+      "distance_mi": 10.4,
+      "elevation_up_ft": 383,
+      "elevation_down_ft": 504,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/16932583"
+    },
+    {
+      "name": "West North to West North",
+      "distance_mi": 3.2,
+      "elevation_up_ft": 43,
+      "elevation_down_ft": 0,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/16927887"
+    },
+    {
+      "name": "W 2400 N, Farr West to Park Blvd, Ogden",
+      "distance_mi": 16.5,
+      "elevation_up_ft": 262,
+      "elevation_down_ft": 79,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/16877327"
+    },
+    {
+      "name": "S Commerce Way, Brigham City to N 200 W, Willard",
+      "distance_mi": 6.3,
+      "elevation_up_ft": 112,
+      "elevation_down_ft": 115,
+      "location": "Perry, Utah, United States",
+      "link": "https://www.bikemap.net/r/17806745"
+    },
+    {
+      "name": "W 2400 N, Farr West to Wilson Dr, West Haven",
+      "distance_mi": 11.9,
+      "elevation_up_ft": 85,
+      "elevation_down_ft": 87,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17320720"
+    },
+    {
+      "name": "W 2400 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 12.3,
+      "elevation_up_ft": 52,
+      "elevation_down_ft": 64,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17149400"
+    },
+    {
+      "name": "W 2400 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 14.7,
+      "elevation_up_ft": 88,
+      "elevation_down_ft": 94,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17037602"
+    },
+    {
+      "name": "W 2400 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 14.7,
+      "elevation_up_ft": 88,
+      "elevation_down_ft": 94,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17051914"
+    },
+    {
+      "name": "W 2400 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 13.6,
+      "elevation_up_ft": 69,
+      "elevation_down_ft": 69,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/17005109"
+    },
+    {
+      "name": "W 2325 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 7.1,
+      "elevation_up_ft": 20,
+      "elevation_down_ft": 21,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/16983319"
+    },
+    {
+      "name": "Short bike tour through Harrisville",
+      "distance_mi": 5.3,
+      "elevation_up_ft": 59,
+      "elevation_down_ft": 66,
+      "location": "North Ogden, Utah, United States",
+      "link": "https://www.bikemap.net/r/3903699"
+    },
+    {
+      "name": "W 2400 N, Farr West to W 2400 N, Farr West",
+      "distance_mi": 9,
+      "elevation_up_ft": 22,
+      "elevation_down_ft": 40,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/16918840"
+    },
+    {
+      "name": "Ogden River Parkway",
+      "distance_mi": 14.5,
+      "elevation_up_ft": 242,
+      "elevation_down_ft": 59,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/16877152"
+    },
+    {
+      "name": "Brigham City to Logan, UT",
+      "distance_mi": 26.2,
+      "elevation_up_ft": 1841,
+      "elevation_down_ft": 1762,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/4476707"
+    },
+    {
+      "name": "15 S 1550 W, Brigham City to 20 S 1550 W, Brigham City",
+      "distance_mi": 4.6,
+      "elevation_up_ft": 544,
+      "elevation_down_ft": 505,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/6297961"
+    },
+    {
+      "name": "5 N Main St, Brigham City to 102 S Tremont St, Tremonton",
+      "distance_mi": 18.2,
+      "elevation_up_ft": 206,
+      "elevation_down_ft": 324,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/11870305"
+    },
+    {
+      "name": "567 E 2100 N St, North Ogden to 567 E 2100 N St, North Ogden",
+      "distance_mi": 8.1,
+      "elevation_up_ft": 974,
+      "elevation_down_ft": 972,
+      "location": "North Ogden, Utah, United States",
+      "link": "https://www.bikemap.net/r/13112011"
+    },
+    {
+      "name": "2265 N 4425 W St, Plain City to 4265 W 1400 N, Plain City",
+      "distance_mi": 13,
+      "elevation_up_ft": 62,
+      "elevation_down_ft": 63,
+      "location": "Plain City, Utah, United States",
+      "link": "https://www.bikemap.net/r/13088320"
+    },
+    {
+      "name": "2265 N 4425 W St, Plain City to 4265 W 1400 N, Plain City",
+      "distance_mi": 13,
+      "elevation_up_ft": 62,
+      "elevation_down_ft": 63,
+      "location": "Plain City, Utah, United States",
+      "link": "https://www.bikemap.net/r/13088321"
+    },
+    {
+      "name": "1933 N Washington Blvd, North Ogden to 1012 N Gramercy Ave, Ogden",
+      "distance_mi": 3.1,
+      "elevation_up_ft": 150,
+      "elevation_down_ft": 141,
+      "location": "North Ogden, Utah, United States",
+      "link": "https://www.bikemap.net/r/10801811"
+    },
+    {
+      "name": "East 1550 South 20, Brigham City to East 1550 South 20, Brigham City",
+      "distance_mi": 13.6,
+      "elevation_up_ft": 525,
+      "elevation_down_ft": 500,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/7452948"
+    },
+    {
+      "name": "ride through Farr West",
+      "distance_mi": 16.3,
+      "elevation_up_ft": 210,
+      "elevation_down_ft": 482,
+      "location": "North Ogden, Utah, United States",
+      "link": "https://www.bikemap.net/r/4153436"
+    },
+    {
+      "name": "Bird Refuge",
+      "distance_mi": 5.4,
+      "elevation_up_ft": 46,
+      "elevation_down_ft": 157,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/3685238"
+    },
+    {
+      "name": "189 E 3725 N, North Ogden to 168 E 3725 N, North Ogden",
+      "distance_mi": 4.3,
+      "elevation_up_ft": 1281,
+      "elevation_down_ft": 1256,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/12733298"
+    },
+    {
+      "name": "2010 N 3000 W, Ogden to 2010 N 3000 W, Ogden",
+      "distance_mi": 7.7,
+      "elevation_up_ft": 113,
+      "elevation_down_ft": 115,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/12714608"
+    },
+    {
+      "name": "5 N Main St, Brigham City to 2551 Washington Blvd, Ogden",
+      "distance_mi": 22.4,
+      "elevation_up_ft": 398,
+      "elevation_down_ft": 507,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/11870110"
+    },
+    {
+      "name": "2436 N 2575 W, Farr West to 2025 N 2000 W, Farr West",
+      "distance_mi": 2.7,
+      "elevation_up_ft": 164,
+      "elevation_down_ft": 200,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/11175641"
+    },
+    {
+      "name": "Adventures in the Development #1",
+      "distance_mi": 5.1,
+      "elevation_up_ft": 257,
+      "elevation_down_ft": 256,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/10583172"
+    },
+    {
+      "name": "Random Ride through the Neighborhood #1",
+      "distance_mi": 3.8,
+      "elevation_up_ft": 139,
+      "elevation_down_ft": 170,
+      "location": "Farr West, Utah, United States",
+      "link": "https://www.bikemap.net/r/10547131"
+    },
+    {
+      "name": "South 300 East 250, Willard to West 4350 South 2335, Roy",
+      "distance_mi": 17.6,
+      "elevation_up_ft": 157,
+      "elevation_down_ft": 137,
+      "location": "Willard, Utah, United States",
+      "link": "https://www.bikemap.net/r/9807570"
+    },
+    {
+      "name": "3511 N 350 E, North Ogden to 385 E 3350 N St, North Ogden",
+      "distance_mi": 7.8,
+      "elevation_up_ft": 1507,
+      "elevation_down_ft": 1690,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/6202823"
+    },
+    {
+      "name": "562 S 100 E, Brigham City to 36 E 300 S, Brigham City",
+      "distance_mi": 4.9,
+      "elevation_up_ft": 406,
+      "elevation_down_ft": 395,
+      "location": "Brigham City, Utah, United States",
+      "link": "https://www.bikemap.net/r/5794439"
+    },
+    {
+      "name": "water",
+      "distance_mi": 2.9,
+      "elevation_up_ft": 299,
+      "elevation_down_ft": 308,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/3686104"
+    },
+    {
+      "name": "water2",
+      "distance_mi": 2.3,
+      "elevation_up_ft": 289,
+      "elevation_down_ft": 276,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/3686114"
+    },
+    {
+      "name": "Water",
+      "distance_mi": 0.8,
+      "elevation_up_ft": 135,
+      "elevation_down_ft": 112,
+      "location": "Pleasant View, Utah, United States",
+      "link": "https://www.bikemap.net/r/3693144"
+    }
+  ]
+}
