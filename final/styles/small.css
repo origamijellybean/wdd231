@@ -131,7 +131,7 @@ h1 {
     padding: 10px 5px;
     margin: 0px;
 }
-#routes a {
+#routes a, #news a {
     margin-top: auto;
     height: min-content;
 }
