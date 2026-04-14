@@ -126,6 +126,35 @@ h1 {
         transform: none;
     }
 }
+
+#routes section p {
+    padding: 10px 5px;
+    margin: 0px;
+}
+#routes a {
+    margin-top: auto;
+    height: min-content;
+}
+
+#filterBar, #routeCount {
+    text-align: center;
+}
+#filterBar select{
+    padding: 5px;
+    border-radius: 15px;
+    font-family: "Fira sans", serif;
+    font-weight: 400;
+    text-align-last: center;
+}
+#filterBar select optgroup {
+    background: tan;
+}
+#filterBar select option {
+    text-align: left;
+    background: white;
+}
+
+
 strong {
     font-family: "DM Serif Text", serif;
     font-weight: 400;

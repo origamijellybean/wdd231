@@ -42,13 +42,13 @@ function filterRoutes(selectedCity) {
             break;
         case "south-of-willard":
             filteredList = bikeRouteList.filter(route => (
-                !["South Willard", "Willard", "Perry", "Brigham City", "Tremonton", "Logan"].some(town =>
+                !["South Willard", "Willard", "Perry", "Brigham City", "Tremonton"].some(town =>
                     route.location.startsWith(town))
             ));
             break;
-        case "north-of-willard":
+        case "willard-and-north":
             filteredList = bikeRouteList.filter(route => (
-                ["Perry", "Brigham City", "Tremonton", "Logan"].some(town =>
+                ["South Willard", "Willard", "Perry", "Brigham City", "Tremonton"].some(town =>
                     route.location.startsWith(town))
             ));
             break;
