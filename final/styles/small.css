@@ -74,6 +74,11 @@ header {
     grid-template-columns: 1fr 4fr 1fr;
     align-items: center;
 }
+header img {
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
 header span {
     font-size: 2em;
     font-weight: 400;
