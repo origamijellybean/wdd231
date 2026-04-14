@@ -97,6 +97,35 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
+
+#welcome {
+    text-align: center;
+    height: min-content;
+    margin: 0 auto;
+    display: flex;
+    animation: bike-in 2s forwards ease-out;
+}
+#welcome p {
+    margin: 0px;
+    background: saddlebrown;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+#welcome img {
+    display: none;
+}
+@keyframes bike-in {
+    0% {
+        transform-origin: center;
+        transform: translateX(-600px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
 strong {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
