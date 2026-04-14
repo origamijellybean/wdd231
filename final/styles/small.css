@@ -1,0 +1,149 @@
+.hamburger {
+    border: 4px ridge black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+.hamburger::before {
+    content: "\2630";
+    cursor: pointer;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+#nav-bar {
+    display: none;
+}
+#nav-bar.show {
+    display: block;
+    border-bottom: ridge 4px black;
+    border-top: none;
+    background: tan;
+}
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav-bar li {
+    min-height: 2rem;
+    align-content: center;
+}
+#nav-bar a {
+    display: block;
+    padding: .8rem 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navigation a:hover {
+    background-color: rgba(150, 111, 83, 0.451);
+    color: white;
+}
+.navigation li.current {
+    background-color: rgb(211, 168, 113);
+    color: white;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+header,
+footer {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    border-bottom: black 4px outset;
+    font-family: "Fira Sans", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+}
+header span {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+strong {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+}
+
+footer {
+    border-top: black 4px outset;
+}
+
+.social {
+    background: white;
+    width: min-content;
+    display: flex;
+    justify-self: center;
+    color: black;
+}
+
+main {
+    background: skyblue;
+    margin: 0;
+    display: grid;
+}
+
+section {
+    border: black 4px outset;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px;
+    background: white;
+    color: black;
+    display: grid;
+    text-align: center;
+}
+section h2 {
+    background: saddlebrown;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+section p {
+    padding-left: 10px;
+    
+}
+section img {
+    justify-self: center;
+    margin: 15px;
+    border: 3px black ridge;
+    border-radius: 10%;
+}
+section a {
+    padding: 10px;
+    margin: 10px auto;
+    border: 3px black outset;
+    background: darkgreen;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+body {
+    min-height: 1vh;
+}

@@ -1,0 +1,39 @@
+@media only screen and (min-width: 34rem) {
+    
+    body {
+        width: 100%;
+        max-width: 1250px;
+        margin: 0 auto;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+    }
+    
+
+.hamburger {
+        display: none;
+    }
+
+    #nav-bar {
+        display: block;
+        height: min-content;
+        background: tan;
+        border-bottom: black 4px ridge;
+    }
+    #nav-bar ul {
+        display: flex;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    main h1 {
+        grid-column: 1/-1;
+    }
+    main section {
+        max-width: 600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+}
