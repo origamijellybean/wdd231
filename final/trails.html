@@ -30,7 +30,7 @@
     <!---->
 
 </head>
-<body>
+<body id="trailpage">
     <header>
         <img src="images/bike.webp" alt="site logo" width="48" height="48">
         <span>Willard Biking Club</span>
@@ -46,36 +46,37 @@
     </nav>
     <main>
         <h1>Trails</h1>
-        <label for="cityFilter" id="filterBar">Filter by city:
-            <select id="cityFilter">
-                <optgroup label="Special Filters">
-                    <option value="all">All</option>
-                    <option value="south-of-willard">South of Willard</option>
-                    <option value="willard-and-north">Willard and North</option>
-                </optgroup>
-                <optgroup label="Cities">
-                    <option value="Brigham City">Brigham City</option>
-                    <option value="Farr West">Farr West</option>
-                    <option value="North Ogden">North Ogden</option>
-                    <option value="Perry">Perry</option>
-                    <option value="Plain City">Plain City</option>
-                    <option value="Pleasant View">Pleasant View</option>
-                    <option value="South Willard">South Willard</option>
-                    <option value="Willard">Willard</option>
-                </optgroup>
-            </select>
-        </label>
-        <p id="routeCount"></p>
+        <div id="filterBar">
+            <label for="cityFilter">Filter by city:
+                <select id="cityFilter">
+                    <optgroup label="Special Filters">
+                        <option value="all">All</option>
+                        <option value="south-of-willard">South of Willard</option>
+                        <option value="willard-and-north">Willard and North</option>
+                    </optgroup>
+                    <optgroup label="Cities">
+                        <option value="Brigham City">Brigham City</option>
+                        <option value="Farr West">Farr West</option>
+                        <option value="North Ogden">North Ogden</option>
+                        <option value="Perry">Perry</option>
+                        <option value="Plain City">Plain City</option>
+                        <option value="Pleasant View">Pleasant View</option>
+                        <option value="South Willard">South Willard</option>
+                        <option value="Willard">Willard</option>
+                    </optgroup>
+                </select>
+            </label>
+            <p id="routeCount">Routes in List: 42</p>
+        </div>
         <div id="routes">
 
         </div>
     </main>
     <footer>
-        
         <div class="social">
-            <a href="https://github.com/origamijellybean" target="_blank"><img src="images/github.svg" alt="github logo" width="40" height="40"></a>
-            <a href="https://www.linkedin.com/in/tysonmhunter/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo" width="40" height="40"></a>
-            <a href="https://www.facebook.com/tyson.hunter.9085/" target="_blank"><img src="images/facebook.svg" alt="facebook logo" width="40" height="40"></a>
+            <a href="https://github.com/origamijellybean" target="_blank"><img src="images/github.svg" alt="github logo" width="40" height="40" loading="lazy"></a>
+            <a href="https://www.linkedin.com/in/tysonmhunter/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo" width="40" height="40" loading="lazy"></a>
+            <a href="https://www.facebook.com/tyson.hunter.9085/" target="_blank"><img src="images/facebook.svg" alt="facebook logo" width="40" height="40" loading="lazy"></a>
         </div>
         <p id="currentyear"></p>
         <p id="lastModified"></p>

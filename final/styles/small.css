@@ -1,3 +1,6 @@
+html {
+    scrollbar-gutter: stable;
+}
 .hamburger {
     border: 4px ridge black;
     box-sizing: border-box;
@@ -5,16 +8,20 @@
     height: 48px;
     width: 48px;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 32px;
+    font-size: 1.75rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hamburger::before {
     content: "\2630";
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hamburger.show::before {
     content: "\00D7";
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #nav-bar {
@@ -66,6 +73,7 @@ body {
     box-sizing: border-box;
     min-height: 100vh;
 }
+
 header,
 footer {
     background: darkgreen;
@@ -81,6 +89,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     align-items: center;
+    justify-items: center;
 }
 header img {
     border: 1px solid black;
@@ -142,6 +151,9 @@ h1 {
     display: grid;
     gap: 15px;
     justify-items: center;
+}
+#filterBar {
+    height: 85px;
 }
 
 #filterBar, #routeCount {
@@ -363,4 +375,20 @@ body#thankspage {
     color: white;
     padding: 2px;
     text-decoration: overline;
+}
+.route {
+    line-height: 1.75rem;
+    font-size: 1rem;
+}
+#cityFilter {
+    font-size: 1rem;
+    padding: 0.35rem 0.5rem;
+    height: 2.1rem;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.route p, #routeCount {
+    font-size: 1rem;
+    line-height: 1.75rem;
 }

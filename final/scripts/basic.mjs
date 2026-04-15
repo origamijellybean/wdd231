@@ -1,5 +1,5 @@
 import { currentyear, lastModified, today, addDate} from "./date.mjs";
-addDate(currentyear, lastModified, today);
+addDate();
 
-import { navButton, navBar, body, addNavButton } from "./navigation.mjs";
-addNavButton(navButton, navBar, body);
+import { navButton, navBar, body, addNavButton} from "./navigation.mjs";
+addNavButton();
