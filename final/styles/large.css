@@ -28,7 +28,7 @@
         padding-left: 2px;
     }
 
-    .bikers {
+    /* .bikers {
         text-align: center;
         height: min-content;
         margin: 0 auto;
@@ -36,15 +36,15 @@
         background: white;
         border-radius: 30%;
     }
-    #biker1 {
+    .biker1 {
         animation: bikers 6s forwards cubic-bezier(1, 0, 1, 4.5) infinite;
         background: plum;
     }
-    #biker2 {
+    .biker2 {
         animation: bikers 12s forwards cubic-bezier(.5, 0, .58, 1) infinite;
         background: orange;
     }
-    #biker3 {
+    .biker3 {
         animation: bikers 6s forwards cubic-bezier(0, 0, 1, 1) infinite;
         background: turquoise;
     }
@@ -56,22 +56,13 @@
         100% {
             transform: translateX(55vw);
         }
-    }
+    } */
 
     main {
-        display: grid;
         grid-template-columns: 1fr;
-        padding: 0 20px;
     }
     main h1 {
         grid-column: 1/-1;
-    }
-    main section {
-        width: 100%;
-        max-width: 600px;
-        box-sizing: border-box;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     #perk1 {
@@ -125,6 +116,9 @@
     }
     #submitfield {
     padding: 15px 50px;
-}
+    }
+    body#thankspage {
+        grid-template-rows: auto auto 1fr auto;
+    }
 }
 

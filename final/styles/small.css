@@ -184,17 +184,25 @@ main {
     background: skyblue;
     margin: 0;
     display: grid;
+    padding: 0 15px;
 }
 
+
 section {
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
     border: black 4px outset;
     border-radius: 25px;
     overflow: hidden;
-    margin: 20px;
+    margin: 20px 0;
     background: white;
     color: black;
     display: grid;
     text-align: center;
+    justify-self: center;
 }
 section h2 {
     background: saddlebrown;
@@ -270,4 +278,43 @@ section a {
 #submitField sub {
     padding: 5px;
     color: darkred;
+}
+
+body#thankspage {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#thankspage h1 {
+    height: min-content;
+}
+
+.bikers {
+    text-align: center;
+    height: min-content;
+    margin: 0 auto;
+    display: flex;
+    background: white;
+    border-radius: 30%;
+}
+.biker1 {
+    animation: bikers 6s forwards cubic-bezier(1, 0, 1, 4.5) infinite;
+    background: plum;
+}
+.biker2 {
+    animation: bikers 12s forwards cubic-bezier(.5, 0, .58, 1) infinite;
+    background: orange;
+}
+.biker3 {
+    animation: bikers 6s forwards cubic-bezier(0, 0, 1, 1) infinite;
+    background: turquoise;
+}
+@keyframes bikers {
+    0% {
+        transform: translateX(-55vw);
+    }
+    100% {
+        transform: translateX(55vw);
+    }
 }
