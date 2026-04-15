@@ -44,8 +44,47 @@
             <li class="current"><a href="#">Join us</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="joinpage">
         <h1>Join</h1>
+        <div class="welcome">
+            <p>Willard Bike Club has it's perks! Join us today!</p>
+            <img src="images/bikebygoogle.webp" alt="biker" width="40" height="40">
+        </div>
+        <section id="perk1">
+            <h2>Bike events</h2>
+            <p>Fun yearly bike events, trail news, and more!</p>
+        </section>
+        <img class="bikers" id="biker1" src="images/bikebygoogle.webp" alt="biker" width="40" height="40">
+        <section id="perk2">
+            <h2>Local discounts</h2>
+            <p>Our club members special discounts at local bike shops!</p>
+        </section>
+        <img class="bikers" id="biker2" src="images/bikebygoogle.webp" alt="biker" width="40" height="40">
+        <section id="perk3">
+            <h2>Join Below!</h2>
+            <p>Join our club below and get a free t-shirt, discounts, and stay in the loop!</p>
+        </section>
+        <img class="bikers" id="biker3" src="images/bikebygoogle.webp" alt="biker" width="40" height="40">
+        <section id="formwrapper">
+            <form id="joinform" method="GET" action="thanks.html">
+                <h2>Sign up for our newsletter!</h2>
+                <fieldset>
+                    <h3>Personal Information</h3>
+                    <label>First Name: <input type="text" name="first" title="Your First Name" autocomplete="given-name" placeholder="ex. Fred" required></label>
+                    <label>Last Name: <input type="text" name="last" title="Your Last Name" autocomplete="family-name" placeholder="ex. Anderson" required></label>
+                </fieldset>
+                <fieldset>
+                    <h3>Contact Information</h3>
+                    <label>Email Address: <input type="email" name="email" title="Your Email" autocomplete="email" placeholder="ex. myaddress@email.com" required></label>
+                    <label>Mobile Phone Number: <input type="tel" name="phone" title="Your Phone Number" autocomplete="tel" placeholder="ex. 123-456-7890" required></label>
+                </fieldset>
+                <fieldset id="submitField">
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+                    <input type="submit" id="submit" value="Join the Club">
+                    <sub>*All fields required</sub>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
         

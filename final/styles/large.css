@@ -23,10 +23,41 @@
         text-align: center;
     }
 
-    #welcome img {
+    .welcome img {
         display: block;
         padding-left: 2px;
     }
+
+    .bikers {
+        text-align: center;
+        height: min-content;
+        margin: 0 auto;
+        display: flex;
+        background: white;
+        border-radius: 30%;
+    }
+    #biker1 {
+        animation: bikers 6s forwards cubic-bezier(1, 0, 1, 4.5) infinite;
+        background: plum;
+    }
+    #biker2 {
+        animation: bikers 12s forwards cubic-bezier(.5, 0, .58, 1) infinite;
+        background: orange;
+    }
+    #biker3 {
+        animation: bikers 6s forwards cubic-bezier(0, 0, 1, 1) infinite;
+        background: turquoise;
+    }
+
+    @keyframes bikers {
+        0% {
+            transform: translateX(-55vw);
+        }
+        100% {
+            transform: translateX(55vw);
+        }
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -41,6 +72,17 @@
         box-sizing: border-box;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    #perk1 {
+        justify-self: start;
+    }
+    #perk3 {
+        justify-self: end;
+    }
+    #joinpage {
+        display: grid;
+        justify-items: center;
     }
     main section img {
         width: 100%;
@@ -75,14 +117,14 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     #news {
-        margin: 0 auto;
-        width: 100%;
-        display: grid;
-        gap: 15px;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
     #news > :last-child:nth-child(odd) {
         grid-column: 1/-1;
         margin: 55px auto 85px auto;
     }
+    #submitfield {
+    padding: 15px 50px;
 }
+}
+

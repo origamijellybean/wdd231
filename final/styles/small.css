@@ -98,14 +98,14 @@ h1 {
     text-align: center;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     height: min-content;
     margin: 0 auto;
     display: flex;
     animation: bike-in 2s forwards ease-out;
 }
-#welcome p {
+.welcome p {
     margin: 0px;
     background: saddlebrown;
     color: white;
@@ -113,7 +113,7 @@ h1 {
     border-radius: 10px;
     padding: 10px;
 }
-#welcome img {
+.welcome img, .bikers {
     display: none;
 }
 @keyframes bike-in {
@@ -127,13 +127,21 @@ h1 {
     }
 }
 
-#routes section p {
+#routes section p, #news p {
     padding: 10px 5px;
     margin: 0px;
 }
 #routes a, #news a {
     margin-top: auto;
     height: min-content;
+    margin: 10px auto;
+}
+#news {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    justify-items: center;
 }
 
 #filterBar, #routeCount {
@@ -216,4 +224,50 @@ section a {
     border-radius: 5px;
     overflow: hidden;
     text-decoration: none;
+}
+#formwrapper {
+    display: grid;
+}
+
+#joinform fieldset {
+    margin: 0;
+    border: none;
+}
+#joinform h3{
+    background: darkgreen;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+#joinform fieldset {
+    display: grid;
+}
+#joinform fieldset label {
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: right;
+    align-items: center;
+    gap: 5px;
+    min-width: 0;
+}
+#joinform input {
+    padding: 4px;
+}
+#submitField {
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+}
+#submit {
+    background: tan;
+    border-radius: 5px 5px;
+}
+#submit:hover {
+    border-style: inset;
+    background: rgb(211, 168, 113);
+}
+#submitField sub {
+    padding: 5px;
+    color: darkred;
 }
