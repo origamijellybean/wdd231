@@ -186,7 +186,13 @@ main {
     display: grid;
     padding: 0 15px;
 }
-
+section, dialog {
+    border: black 4px outset;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+}
 
 section {
     width: 100%;
@@ -194,22 +200,56 @@ section {
     box-sizing: border-box;
     margin-left: 0;
     margin-right: 0;
-    border: black 4px outset;
-    border-radius: 25px;
     overflow: hidden;
     margin: 20px 0;
-    background: white;
-    color: black;
     display: grid;
-    text-align: center;
     justify-self: center;
 }
-section h2 {
+section h2, dialog h2 {
     background: saddlebrown;
     color: white;
     padding: 10px;
     margin: 0px;
 }
+dialog h2 {
+    height: min-content;
+}
+
+dialog p {
+    font-size: 1.25rem;
+}
+
+dialog #okay {
+    width: 70px;
+    height: 35px;
+    background: tan;
+    border-radius: 5px;
+    border: 1px outset black;
+}
+dialog #exit:hover {
+    background:lightgray;
+    border-style: inset;
+}
+dialog #exit {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px outset black;
+}
+dialog div {
+    align-content: center;
+}
+
+dialog:open {
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 200px;
+    display: grid;
+}
+
+
 section p {
     padding-left: 10px;
     
@@ -271,7 +311,7 @@ section a {
     background: tan;
     border-radius: 5px 5px;
 }
-#submit:hover {
+#submit:hover, dialog #okay:hover{
     border-style: inset;
     background: rgb(211, 168, 113);
 }

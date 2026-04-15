@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
     <!---->
 
 </head>
@@ -49,26 +50,35 @@
     <main>
         <h1>Events</h1>
         <div id="news">
+            <dialog id="websiteLeaving">
+                <h2>Notice</h2>
+                <p>This will take you away from this site!</p>
+                <div>
+                    <button id="okay">Okay</button>
+                    <button id="exit">Cancel</button>
+                </div>
+            </dialog>
             <section>
                 <h2>Fruit-way's Backyard Race</h2>
                 <p><strong>When: </strong>August 15th, 2026 @ 6:30pm</p>
                 <p><strong>Where: </strong>Willard City Offices, 80 South St, Willard Utah</p>
                 <p>Join us for a fun 12 mile bikeride on the backroad of Willard and Perry! There will be prizes!</p>
-                <a href="https://www.bikemap.net/r/16942817" target="_blank">Route details</a>
+                <a class="confirm" href="https://www.bikemap.net/r/16942817" target="_blank">Route details</a>
             </section>
             <section>
                 <h2>Bamberger + Fruit-way's Backyard Fun ride</h2>
                 <p><strong>When: </strong>August 14th, 2027 @ 6:30pm</p>
                 <p><strong>Where: </strong>Willard City Offices, 80 South St, Willard Utah</p>
                 <p>Join us for the second annual Willard bike ride. There will be two different routes- a long one and a short one- and prizes!</p>
-                <a href="https://www.bikemap.net/r/16942933" target="_blank">Bamburger Route details</a>
-                <a href="https://www.bikemap.net/r/16942817" target="_blank">Fruit-way Route details</a>
+                <a class="confirm" href="https://www.bikemap.net/r/16942933" target="_blank">Bamburger Route details</a>
+                <a class="confirm" href="https://www.bikemap.net/r/16942817" target="_blank">Fruit-way Route details</a>
             </section>
             <section>
                 <h2>More news to come!</h2>
                 <p>Join the Willard Biking Club to get news on upcoming events!</p>
                 <a href="join.html">Subscribe to get notified</a>
             </section>
+            
     </div>
     </main>
     <footer>
