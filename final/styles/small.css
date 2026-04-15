@@ -240,7 +240,7 @@ dialog div {
     align-content: center;
 }
 
-dialog:open {
+dialog[open] {
     padding: 0;
     width: 100%;
     max-width: 300px;

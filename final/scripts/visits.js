@@ -11,7 +11,7 @@ if (!sessionStorage.getItem("visited")) {//if there is no visit during this sess
 if (visitDates.length == 1) {
     welcome.innerHTML = `Welcome! Let us know if you have any questions.`;
 } else {
-    let visitDistance = (visitDates[visitDates.length - 1] - visitDates[visitDates.length - 2]) / 86400000;
+    let visitDistance = Math.floor((visitDates[visitDates.length - 1] - visitDates[visitDates.length - 2]) / 86400000);
     if (visitDistance < 1) {
         welcome.innerHTML = `Back so soon! Awesome!`;
     } else {
