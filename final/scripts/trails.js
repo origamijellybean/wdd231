@@ -1,7 +1,6 @@
 let bikeRouteList = [];
 
 async function fetchBikeRoutes() {
-
     try {
         const response = await fetch("data/trails.json");
         if (response.ok) {

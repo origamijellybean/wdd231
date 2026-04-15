@@ -1,4 +1,5 @@
 let visitDates = JSON.parse(localStorage.getItem("visitDates")) || [];
+const welcome = document.querySelector("#welcome p");
 
 if (!sessionStorage.getItem("visited")) {//if there is no visit during this session
     const date = new Date();
@@ -7,8 +8,6 @@ if (!sessionStorage.getItem("visited")) {//if there is no visit during this sess
 
     sessionStorage.setItem("visited", "true"); //record that a visit has been made this session
 }
-
-const welcome = document.querySelector("#welcome p");
 if (visitDates.length == 1) {
     welcome.innerHTML = `Welcome! Let us know if you have any questions.`;
 } else {
