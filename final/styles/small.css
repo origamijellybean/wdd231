@@ -358,3 +358,9 @@ body#thankspage {
         transform: translateX(55vw);
     }
 }
+
+.loom {
+    color: white;
+    padding: 2px;
+    text-decoration: overline;
+}
