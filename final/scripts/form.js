@@ -8,3 +8,4 @@ function addResults() {
     <p>Your email: ${myInfo.get("email")}</p>
     `;
 }
+addResults();
